@@ -1,36 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Recipies Web Page</title>
-	<meta charset=utf-8>
-	<meta name=description content="Web Page about Plate Recipes">
-	<meta name=viewport content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset=utf-8>
+		<title>Recipies Web Page</title>
 
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
+		<link rel="stylesheet" href="./css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+	</head>
 <body>
-	<header id="body_header" class="body_header" style="text-align: center;">
-			<img class="header_img" src="images/logo.png" alt="">
-			<nav class="header_nav">
-				<a class="nav_a" href="index.html">
-					Home
-				</a>
-				<a class="nav_a" href="menu.html">
-					Menu
-				</a>
-				<a class="nav_a" href="contact.html">
-					Contact
-				</a>
-			</nav>	
-	</header><!-- /header -->
+	<div class="row main-container middle-xs center-xs">
+		<div class="col-md-8 col-sm-10 col-xs-11 col-lg-7">
+			<div class="box">
+				<header class="main-header">
+					<nav class="header_nav">
+						<a class="nav-link" href="index.html">
+							Home
+						</a>
+						<a class="nav-link" href="menu.html">
+							Menu
+						</a>
+						<a class="nav-link" href="contact.html">
+							Contact
+						</a>
+					</nav>	
+				</header><!-- /header -->				
+					<div class="menu">
+						<header class="text-center">
+							<img class="header_img" height="100" src="images/logo.png" alt="Logo">
+							<h1 class="red-text pacifico title">Delicious Desserts</h1>
+						</header><!-- /header -->
+							<div class="product">
+								<div class="row">
+									<div class="col-xs-10 col-sm-6 col-md-4">
+										<div class="card"> 
+											<img src="images/products/berry.png" alt="Image of a Berry">
+											<h3>Berry</h3>
+											<p>$5 usd</p>
+										</div>
+									</div>
+									
+								</div>
+								
+							</div>
+					</div>
+			</div>
+		</div>
+	</div>
 
 
-	<article id= "body_article" class = "body_article">
-		<header id="article_header" class="article_header">
-		<h1>Menu</h1>
-			
-		</header><!-- /header -->
-	</article>
+
 
 
 

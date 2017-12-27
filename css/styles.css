@@ -1,22 +1,69 @@
 // All Project Styles ********************
-
-.body_header{
-	text-align: center;
-	// background-color: #34495e;
-	// padding: 10px 15px 10px 15px;
-	
+body{
+	font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
-.nav_a{
-	margin: 0px 4px 0px 4px;
+.pacifico{
+	font-family: 'Pacifico', cursive;
 }
 
+.title{
+	font-size: 2.5em;
+	margin-top: 0;
+}
 
+.main-header{
+	background-color: #34495e;
+	margin: 10px 15px 10px 15px;
 
-.article_header{
+}
+
+.nav-link{
+	color: white;
+	margin-right: 4px;
+
+}
+
+.text-center{
 	text-align: center;
+
+}
+
+.red-text{
+	color: #f45b69;
+
+}
+
+.main-container{
+	min-height: 100vh;
 }
 
 .header_img{
-	height: 50vh;
+	height: 30vh;
 }
+
+.product img{
+	width: 150px;
+}
+
+.product h3{
+	font-size: 1.7em;
+	margin: 5px 0px 5px 0px;
+}
+
+.card{
+	border-radius: 4px;
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -3,6 +3,10 @@ body{
 	font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
+.body{
+	padding: 60px 15px 60px 15px;
+}
+
 .pacifico{
 	font-family: 'Pacifico', cursive;
 }
@@ -11,26 +15,33 @@ body{
 	font-size: 2.5em;
 	margin-top: 0;
 }
+.main-nav{
+	display: flex;
+}
 
 .main-header{
-	background-color: #34495e;
+	background-color: #532400;
 	margin: 10px 15px 10px 15px;
-
+	border-radius: 5px;
 }
 
 .nav-link{
 	color: white;
-	margin-right: 4px;
+	width: 33%;
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
 
 }
 
 .text-center{
 	text-align: center;
-
+	padding-top: 50px;
 }
 
-.red-text{
-	color: #f45b69;
+.color-text{
+	color: #FFCBB7;
+
 
 }
 
@@ -59,9 +70,33 @@ body{
 
 }
 
+.threeD{
+	text-shadow: 1px 3px 0px #6b251d, 1px 13px 5px rgb(171, 168, 168);
+}
 
+.delay-1{
+	animation-delay: 0.1s;
+	position: relative;
+	z-index: 5;
+}
 
+.delay-2{
+	animation-delay: 0.2s;
+	position: relative;
+	z-index: 4;
+}
 
+.delay-3{
+	animation-delay: 0.3s;
+	position: relative;
+	z-index: 3;
+}
+
+.delay-4{
+	animation-delay: 0.4s;
+	position: relative;
+	z-index: 2;
+}
 
 
 
